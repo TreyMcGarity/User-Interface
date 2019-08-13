@@ -64,15 +64,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.title {
-	text-align: center;
-}
-
-.title h1 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-	font-size: 70px;
+.test {
+	border: 1px solid green;
 }
 
 button {
@@ -109,25 +102,37 @@ header nav a {
 	text-decoration: none;
 	color:silver;
 }
+.title {
+	text-align: center;
+	border: 1px solid aqua;
+}
 
+.title h1 {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 80px;
+}
 div {
-	display: inline;
+	display: inline-block;
+	width: 800px;
+	border: 1px solid orange;
 }
 
 div section {
 	display: inline-block;
-	width: 50%;
-	float: left;
+	width: 48%;
+	border: 1px dotted red;
 }
 
 div aside {
 	display: inline-block;
 	width: 50%;
-	vertical-align:left;
+	border: 1px solid purple;
 }
 
 hr {
 	width: 800px;
+	color: black;
 }
 
 .middle-img {
@@ -138,12 +143,14 @@ hr {
 	margin: auto;
 	padding: 30px 10px 30px 0;
 	text-align:left;
+	width: 48%;
 }
 
 .about {
 	margin: auto;
 	padding: 30px 10px 30px 0;
 	text-align:left;
+	width: 48%;
 }
 
 .services {
@@ -173,11 +180,19 @@ hr {
 	text-align:left;
 }
 
+.contact address {
+	margin: 0 0 20px 0;
+}
 .contact a {
 	text-decoration: none;
 	color:black;
 }
+.contact p {
+	margin: 20px 0 0 0;
+}
 
 footer {
+	margin: 50px;
 	text-align: center;
+	padding: 0 0 60px 0;
 }
