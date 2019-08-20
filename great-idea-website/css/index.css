@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, nav, output, ruby, section, summary,	
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+button {
+   font-size: 16px;
+   height: 35px;
+   width: 170px; 
+   bottom: 195px;
+   background-color: white;
+   color: black;
+   border: 1px solid black;  
+}
+
+body {
+	align-content: center;
+	margin: auto;
+	width: 800px;
+}
+
+header {
+	display: block;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+header nav {
+	display: inline-block;
+	margin: auto;
+	padding: 10px 0;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color:silver;
+}
+.title {
+	text-align: center;
+}
+
+.title h1 {
+	font-family: 'Bangers', cursive;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 80px;
+}
+div {
+	display: inline-block;
+	width: 800px;
+}
+
+div section {
+	display: inline-block;
+	width: 49%;
+}
+
+div aside {
+	display: inline-block;
+	width: 50%;
+}
+
+hr {
+	width: 800px;
+	color: black;
+}
+
+.middle-img {
+	width:800px;
+}
+
+.features {
+	margin: auto;
+	padding: 30px 10px 30px 0;
+	text-align:left;
+	width: 49%;
+}
+
+.about {
+	margin: auto;
+	padding: 30px 10px 30px 0;
+	text-align:left;
+	width: 49%;
+}
+
+.services {
+	margin: auto;
+	padding: 30px 10px 30px 0;
+	width:33%;
+	text-align:left;
+}
+
+.product {
+	margin: auto;
+	padding: 30px 10px 30px 0;
+	width:33%;
+	text-align:left;
+}
+
+.vision {
+	margin: auto;
+	padding: 30px 10px 30px 0;
+	width:33%;
+	text-align:left;
+}
+
+.contact {
+	margin: auto;
+	padding: 30px 10px 30px 0;
+	text-align:left;
+}
+
+.contact address {
+	margin: 0 0 20px 0;
+}
+.contact a {
+	text-decoration: none;
+	color:black;
+}
+.contact p {
+	margin: 20px 0 0 0;
+}
+
+footer {
+	margin: 50px;
+	text-align: center;
+	padding: 0 0 60px 0;
+}
